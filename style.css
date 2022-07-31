@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+
+body,html {
+  background: black;
+ font-family: "Montserrat", sans-serif;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   min-height: 70vh;
+}
+
+.main span {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main p {
+  color: white;
+  font-size: 10px;
+}
+
+.main img {
+  width: 180px;
+  height: 180px;
+  align-items: center;
+  
+}
+
+.main button {
+  border-radius: 6px;
+  background: black;
+  width: 100px;
+  height: 40px;
+  border: 4px solid black;
+  color: white;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.glass-box {
+  background: #000000;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.00) 0px 0px 0px 0.5px inset;
+  box-shadow: rgba(255, 255, 255, 0.00) 0px 0px 0px 0.5px inset;
+}
+
+.nav-link2,
+.navbar-brand2 {
+  transition: 0.2s !important;
+}
+
+.nav-link2:hover,
+.navbar-brand2:hover {
+  color: #0d6efd !important;
+  transition: 0.2s !important;
+}
+
+.devs {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   min-height: 70vh;
+}
+
+.devs span {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.devs p {
+  color: white;
+  font-size: 15px;
+}
+
+.devs img {
+  width: 180px;
+  height: 180px;
+  align-items: center;
+  
+}
